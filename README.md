@@ -13,6 +13,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.2"/>
+        
 <com.ganduwei.rulerselectviewdemo.RulerSelectView
         android:id="@+id/rulerSelectView"
         android:layout_width="wrap_content"
