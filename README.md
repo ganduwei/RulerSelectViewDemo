@@ -15,4 +15,5 @@
 ![这里随便写文字](https://github.com/ganduwei/RulerSelectViewDemo/blob/master/ruler14154.gif)
 
 ## 实现原理解析
+https://blog.csdn.net/ganduwei/article/details/89526222
 
