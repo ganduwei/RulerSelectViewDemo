@@ -6,11 +6,7 @@
     <com.ganduwei.rulerselectviewdemo.RulerSelectView
             android:id="@+id/rulerSelectView"
             android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            android:layout_height="wrap_content"/>
             
     代码中
     rulerSelectView.setRulerRange(-20f, 20f)
