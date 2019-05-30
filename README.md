@@ -9,7 +9,10 @@
             android:layout_height="wrap_content"/>
             
     代码中
-    rulerSelectView.setRulerRange(-20f, 20f)
+    rulerSelectView.setRulerRange(-100f, 100f)
 ```
 ## 效果图
 ![这里随便写文字](https://github.com/ganduwei/RulerSelectViewDemo/blob/master/ruler14154.gif)
+
+## 实现原理解析
+
