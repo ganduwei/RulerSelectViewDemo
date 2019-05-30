@@ -1,8 +1,7 @@
 # RulerSelectViewDemo
-一个像尺子一样的滑动选择控件 RluerSelectView
+一个像尺子一样的滑动选择控件 RluerSelectView ,支持在ViewPager等滑动控件中使用。
 ## 使用方法
 ```java
-
 布局中
 <TextView
         android:id="@+id/textView"
@@ -17,7 +16,7 @@
 <com.ganduwei.rulerselectviewdemo.RulerSelectView
         android:id="@+id/rulerSelectView"
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
