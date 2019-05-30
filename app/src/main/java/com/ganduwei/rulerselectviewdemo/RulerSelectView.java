@@ -108,8 +108,6 @@ public class RulerSelectView extends View {
         int widthMode = MeasureSpec.getMode(widthMeasureSpec);
         int height = MeasureSpec.getSize(heightMeasureSpec);
         int heightMode = MeasureSpec.getMode(heightMeasureSpec);
-        Log.i(TAG, "onMeasure: width " + width + " ; height " + height);
-        Log.i(TAG, "onMeasure: widthMode " + widthMode + " ; heightMode " + heightMode);
         DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
         if (widthMode != MeasureSpec.EXACTLY) {
             width = displayMetrics.widthPixels;
